@@ -1,0 +1,19 @@
+Large Language Models (LLMs) are AI systems trained on vast amounts of text data to understand and generate human-like language. They learn patterns, grammar, facts, and reasoning abilities by predicting the next word in a sequence. Popular examples include GPT models, Claude, Gemini, and Llama. Understanding the basic concepts behind LLMs is the first step toward working with modern AI applications.
+
+At a high level, an LLM is built using a neural network architecture called the Transformer. Transformers use mechanisms such as attention to determine which parts of the input text are most relevant when generating a response. This architecture enables models to handle long contexts and perform a wide range of language-related tasks.
+
+Before using an LLM, it is helpful to understand prompts. A prompt is the input given to the model, which can be a question, instruction, conversation, or block of text. The quality and clarity of a prompt often have a significant impact on the quality of the model's output. Good prompts are usually specific, structured, and provide enough context.
+
+LLMs can perform many tasks without additional training. Common use cases include answering questions, summarizing documents, translating languages, generating code, brainstorming ideas, and creating content. This flexibility is one of the reasons why LLMs have become widely adopted across industries.
+
+When starting with LLMs, it is important to experiment with different prompting techniques. Zero-shot prompting involves giving the model a task directly. Few-shot prompting includes examples within the prompt to guide the model. Chain-of-thought prompting encourages the model to reason through a problem step by step, which can improve performance on complex tasks.
+
+One key concept is context length, which refers to the amount of information the model can process in a single interaction. Different models support different context windows. Larger context windows allow users to work with longer documents, extensive conversations, and more detailed instructions without losing important information.
+
+Despite their capabilities, LLMs have limitations. They can generate incorrect information, misunderstand ambiguous instructions, or produce outputs that sound convincing but are factually inaccurate. This behavior is often referred to as hallucination. Users should verify important information, especially in professional, legal, financial, or medical contexts.
+
+Developers commonly access LLMs through APIs. An API allows applications to send prompts to a model and receive generated responses programmatically. This enables the integration of AI features into websites, mobile applications, customer support systems, and internal business tools.
+
+As projects become more advanced, techniques such as Retrieval-Augmented Generation (RAG), fine-tuning, and tool use become important. RAG combines external knowledge sources with LLMs to improve factual accuracy. Fine-tuning adapts a model to specialized tasks, while tool use enables models to interact with databases, calculators, search engines, and other systems.
+
+The best way to learn LLMs is through hands-on practice. Start by experimenting with simple prompts, explore different models, build small projects, and evaluate outputs critically. Over time, understanding concepts such as tokenization, embeddings, context management, and model evaluation will provide a stronger foundation for developing reliable AI-powered applications.
